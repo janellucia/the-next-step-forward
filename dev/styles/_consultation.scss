@@ -1,0 +1,88 @@
+.free-consultation{
+	background: linear-gradient(rgba(50,140,193,0.6), rgba(50,140,193,0.6)),
+                rgba(50,140,193,0.6) url("/images/background_04.jpg") no-repeat 50% 50%;
+			background-size: cover;
+	// background-attachment: fixed;
+	padding: 10% 0;
+	margin: 0;
+	overflow-y: scroll;
+}
+.consult-wrapper{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	h2{
+		color: $nextWhite;
+		font-family: 'Taviraj', serif;
+		@include responsive-font(4vw, 30px, 80px);
+		font-style: italic;
+		text-align: center;
+		width: 70%;
+		margin: 0;
+	}
+	p{
+		@include responsive-font(1.3vw, 12px, 28px);
+		color: $nextWhite;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	.buttons{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 70%;
+		button{
+			font-family: 'Taviraj', serif;
+			font-weight: 300;
+			font-style: italic;
+			background:$nextWhite;
+		    border: 0;
+		    outline: 0;
+		    color: $nextBlue;
+		    @include responsive-font(1.5vw, 11px, 14px);
+		    padding: 10px 0;
+		    width: 30%;
+		    border-radius: 10px;
+		    margin: 5% 3%;
+		    transition: all 0.5s ease 0s;
+		    .button{
+		    	text-decoration: none;
+		    	color: $nextBlue;
+
+		    }
+		}
+		button:hover{
+			background:$nextBlue;
+			color: $nextWhite;
+			outline: 0;
+			.button:hover{
+				color: $nextWhite;
+			}
+		}
+		button:active{
+			background:darken($nextBlue, 25%);
+		}
+	}
+}
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+
+	.free-consultation{
+		background-size: auto;
+	}
+	.free-consultation{
+		padding: 20% 0;
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}

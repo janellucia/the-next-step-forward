@@ -1,0 +1,123 @@
+.testimonials{
+	// background:$nextWhite;
+}
+#carousel {
+	position: relative;
+	width: 100%;
+	padding: 15% 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slides {
+	overflow: hidden;
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: -15%;
+	ul {
+		list-style: none;
+		width:100%;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		li {
+			width:100%;
+			float:left;
+			text-align: center;
+			position: relative;
+		}
+
+	}
+}
+
+
+.slide{
+	// width: 70%;
+}
+/* Styling for prev and next buttons */
+.btn-bar{
+	width:100%;
+	margin-top: 10%;
+}
+
+ #buttons {
+	padding:0 0 5px 0;
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons a {
+	text-align:center;
+	display:block;
+	@include responsive-font(1.6vw, 16px, 26px);
+	float: left;
+	outline:0;
+	// margin:0 60px;
+	color:$nextWhite;
+	background: $nextBlue;
+	text-decoration:none;
+	display:block;
+	padding:9px;
+}
+
+a#prev:hover, a#next:hover {
+	color:darken($nextBlue, 5%);
+}
+
+.quote-phrase, .quote-author {
+	font-family:sans-serif;
+	font-weight:300;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px 20px;
+}
+
+.quote-phrase {
+	@include responsive-font(1.8vw, 16px, 30px);
+	font-weight: 500; 
+	color: $nextDarkBlue; 
+}
+
+.quote-marks {
+	@include responsive-font(1.6vw, 16px, 26px);
+	padding:0 3px 3px;
+	position:inherit;
+	color: $nextDarkBlue;
+}
+
+.quote-author {
+	@include responsive-font(1.6vw, 16px, 26px);
+	height: 30px;
+	color: $nextDarkBlue;
+}
+
+.quoteContainer, .authorContainer {
+display: table;
+width: 100%;
+}
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	#carousel{
+		padding: 15% 0 0 0;
+	}
+	#slides{
+		width: 90%;
+		margin-top: -30%;
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}
+

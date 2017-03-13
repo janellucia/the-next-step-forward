@@ -1,0 +1,103 @@
+.about{
+	background-color: $nextWhite;
+	display: flex;
+	
+}
+
+.about-wrapper{
+	padding: 10% 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	h2{
+		font-family: 'Taviraj', serif;
+		@include responsive-font(4vw, 30px, 80px);
+		line-height: 1;
+		font-style: italic;
+		width: 70%;
+		.blue{
+			color: $nextBlue;
+		}
+	}
+	.about-text{
+		@include responsive-font(1.3vw, 12px, 28px);
+		font-weight: 500;
+		.highlight{
+			@include responsive-font(1.8vw, 16px, 32px);
+			text-align: center;
+		}	
+	}
+
+}
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	.about-wrapper{
+		padding: 20% 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	// align-items: center;
+	h2{
+		font-family: 'Taviraj', serif;
+		@include responsive-font(4vw, 30px, 80px);
+		line-height: 1;
+		font-style: italic;
+		width: 100%;
+		text-align: center;
+		.blue{
+			color: $nextBlue;
+		}
+	}
+	.about-text{
+		@include responsive-font(1.3vw, 12px, 28px);
+		text-align: center;
+		.highlight{
+			@include responsive-font(1.8vw, 16px, 32px);
+			text-align: center;
+		}	
+	}
+	.buttons{
+		// display: flex;
+			// justify-content: center;
+			// align-items: center;
+			width: 100%;
+		button{
+			font-family: 'Taviraj', serif;
+			font-weight: 300;
+			font-style: italic;
+			background:$nextBlue;
+		    border: 0;
+		    outline: 0;
+		    color: $nextWhite;
+		    @include responsive-font(1.5vw, 9px, 12px);
+		    padding: 10px 0;
+		    width: 30%;
+		    border-radius: 10px;
+		    margin: 5% 3%;
+		    transition: all 0.5s ease 0s;
+		    .button{
+		    	text-decoration: none;
+		    	color: $nextWhite;
+
+		    }
+		}
+		button:hover{
+			background:darken($nextBlue, 10%);
+			color: $nextWhite;
+			outline: 0;
+		}
+		button:active{
+			background:darken($nextBlue, 25%);
+		}
+	}
+}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}

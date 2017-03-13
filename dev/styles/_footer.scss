@@ -1,0 +1,61 @@
+footer{
+	background: lighten($nextDarkBlue, 10%);
+	width: 100%;
+	margin: 0;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5% 0;
+	p{
+		@include responsive-font(1vw, 8px, 16px);
+		font-family: 'Taviraj', serif;
+		font-weight: 300;
+	}
+	img{
+		height: 70px;
+		width: 70px;
+	}
+}
+.credits{
+	background: darken($nextBlue, 8%);
+	height: 3vh;
+	p{
+		@include responsive-font(0.8vw, 8px, 12px);
+		text-align: center;
+		a{
+			text-decoration: none;
+			color: $nextDarkGrey;
+		}
+	}
+}
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	.footer{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 5% 0;
+		p{
+			@include responsive-font(1vw, 8px, 16px);
+			font-family: 'Taviraj', serif;
+			font-weight: 300;
+		}
+		img{
+			height: 50px;
+			width: 50px;
+		}
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}

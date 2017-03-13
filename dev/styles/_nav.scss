@@ -1,0 +1,104 @@
+//main nav styles
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 15vh;
+  width: 100%;
+  .navigation{
+    padding: 5%;
+    width: 100%;
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        list-style: none;
+        margin-right: 5%;
+        text-transform: uppercase;
+        @include responsive-font(1vw, 12px, 22px);
+        text-transform: uppercase;
+        a{
+          text-decoration: none;
+          color: $nextBlack;
+          font-family: 'Muli', sans-serif;
+        }
+        a:hover{
+          color: $nextBlue;
+        }
+      }
+      
+    }
+  }
+  .hidden {
+    display:none;
+  }
+}
+
+
+
+//responsive menu styles
+.mini-navigation {
+  width: 100%;
+  margin: -5px 0 0 0;
+  background: $nextWhite;
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    li {
+      padding:7px 0;
+      list-style:none;
+      border-bottom:0.5px solid $nextBlue;
+      text-align: center;
+      width: 100%;
+      background: $nextWhite;;
+      a {
+        text-decoration:none;
+        @include responsive-font(3vw, 14px, 42px);
+        color: $nextBlack;
+      }
+      a:hover {
+        color: $nextBlue;
+      }
+    }
+    .hidden{
+      margin-top: -50px;
+    }
+  }
+}
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+  .navigation.responsive{
+    background: $nextWhite;
+    height: 15vh;
+  	ul{
+  		justify-content: flex-end;
+  		li {
+    		display:none;
+  		} 
+  		li.hidden {
+    		display:block;
+    		@include responsive-font(4vw, 24px, 48px);
+			a{
+				padding-left:24px;
+			}
+  		}
+		li.hidden:hover {
+		    border-radius:4px 0 0 4px;
+		}
+  	} 
+  }
+  
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}

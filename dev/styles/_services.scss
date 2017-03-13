@@ -1,0 +1,109 @@
+
+
+.service-wrapper{
+	padding: 10% 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	.service-item{
+		display: flex;
+		flex-direction: column;
+		// justify-content: center;
+		align-items: center;
+		width: 30%;
+		margin: 0 auto;
+		// width: 100px;
+		// height: 100px;
+		.service-pic{
+			width: 170px;
+			height: 170px;
+			border-radius: 50%;
+		}
+		.pic-1{
+			background: linear-gradient(rgba(50,140,193,0.2), rgba(50,140,193,0.2)),
+                rgba(50,140,193,0.2) url("/images/service-decluttering.jpg") no-repeat center;
+			background-size: cover;
+		}
+		
+		.pic-2{
+			background: linear-gradient(rgba(50,140,193,0.2), rgba(50,140,193,0.2)),
+                rgba(50,140,193,0.2) url("/images/service-staging.jpg") no-repeat center;
+			background-size: cover;
+		}
+		
+		.pic-3{
+			background: linear-gradient(rgba(50,140,193,0.2), rgba(50,140,193,0.2)),
+                rgba(50,140,193,0.2) url("/images/service-packing.jpg") no-repeat center;
+			background-size: cover;
+		}
+		
+		.pic-4{
+			background: linear-gradient(rgba(50,140,193,0.2), rgba(50,140,193,0.2)),
+                rgba(50,140,193,0.2) url("/images/background_03.jpg") no-repeat center;
+			background-size: cover;
+		}
+		
+		.pic-5{
+			background: linear-gradient(rgba(50,140,193,0.2), rgba(50,140,193,0.2)),
+                rgba(50,140,193,0.2) url("/images/service-moving.jpg") no-repeat center;
+			background-size: cover;
+		}
+		// .pic-5:hover{
+		// 	background: linear-gradient(rgba(50,140,193,0.5), rgba(50,140,193,0.5)),
+  //               rgba(50,140,193,0.5) url("/images/service-moving.jpg") no-repeat center;
+		// 	background-size: cover;
+		// 	-o-transition:.7s;
+		// 	-o-transition: background 0.7s linear;
+		// 	-moz-transition: background 0.7s linear;
+		// 	-khtml-transition: background 0.7s linear;
+		// 	-webkit-transition: background 0.7s linear;
+		// 	-ms-transition: background 0.7s linear;
+		// 	transition: background 0.7s linear;
+		// }
+		.pic-6{
+			background: linear-gradient(rgba(50,140,193,0.2), rgba(50,140,193,0.2)),
+                rgba(50,140,193,0.2) url("/images/background_02.jpg") no-repeat center;
+			background-size: cover;
+
+		}
+		
+		.service-title{
+			text-decoration: none;
+			color: $nextBlack;
+			text-align: center;
+			margin: 20px 0 40px 0;
+			@include responsive-font(1.5vw, 14px, 24px);
+			letter-spacing: 2px;
+		}
+	}
+}
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	.service-wrapper{
+		.service-item{
+			width: 45%;
+			.service-pic{
+					width: 120px;
+					height: 120px;
+			}
+		}
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+
+	.service-wrapper{
+		.service-item{
+			.service-pic{
+					width: 90px;
+					height: 90px;
+			}
+		}
+	}
+ 
+}
