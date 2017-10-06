@@ -1,10 +1,169 @@
-$nextWhite: #f4f4f4;
 $nextBlue: #01a7e3;
-$nextLightBlue: lighten($nextBlue, 2%);
-$nextDarkBlue: darken($nextBlue, 15%);
+$nextLightBlue: lighten($nextBlue, 5%);
+$nextDarkBlue: darken($nextBlue, 5%);
+
+$nextWhite: #fff;
 $nextBlack: #1d2731;
+$nextLightGrey: lightgrey;
+$nextGrey: grey;
 $nextDarkGrey: #414042;
 
-// font-family: 'Taviraj', serif;
-// font-family: 'Raleway', sans-serif;
+$primaryFont: 'Taviraj', serif;
+$secondaryFont: 'Open Sans', sans-serif;
 
+
+//Basic Typography
+a{
+    text-decoration: none;
+    color: $nextBlack;
+    font-weight: 600;
+}
+a:hover, a:focus, a:active{
+    color: $nextBlue;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $primaryFont;
+	font-weight:400;
+
+}
+//main section headers
+h2{
+	font-size: 2.5em;
+	width: 100%;
+	text-align: center;
+	line-height: 1;
+	font-style: italic;
+}
+
+//skip to content
+.hidden {
+	position: absolute;
+	left: -999px;
+  }
+	.hidden:focus { 
+	left: 5px;
+  }
+
+//  Back to Top //
+a.back-to-top {
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: $nextBlue;
+	color: white;
+    text-decoration: none;
+    border-radius: 50%;
+	.fa{
+		// text-align: center;
+		width: 50px;
+		height: 50px;
+        font-size: 2em;
+        padding: 15px 0 0 15px;
+	}
+}
+
+
+
+//  Buttons  //
+
+button, .button{
+    color: $nextWhite;
+    background:$nextBlue;
+    border: 0;
+    outline: 0;
+    padding: 7px 12px;
+    transition: all 0.5s ease 0s;
+    a{
+        color: $nextWhite;
+        text-transform: uppercase;
+    }
+}
+button:hover, button:focus, button:active, .button:hover, .button:focus, .button:active{
+    background:lighten($nextBlue, 5%);
+    color: $nextWhite;
+    outline: 0;
+    a{
+        color: $nextWhite;
+    }
+}
+
+// Consultation Bar  //
+.consultation{
+	padding: 1%;
+    background: linear-gradient(rgba($nextBlue,0.9), rgba($nextBlue,0.9)),rgba($nextBlue,0.9) url("/images/background_04.jpg") no-repeat 50% 50%;background-size: cover;
+	h4{
+		font-size: 1.5em;
+		color: $nextWhite;
+		// font-weight: 600;
+		font-style: italic;
+		width: 80%;
+	}
+	button{
+		background:$nextWhite;
+		width: 20%;
+		a{
+			color: $nextBlue;
+			letter-spacing: 1px;
+		}
+	}
+	button:hover, button:focus, button:active{
+		background: darken($nextWhite, 5%);
+	}
+}
+
+//  Universal Classes  //
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+// All Media Queries  //
+
+@media (max-width: 768px) {
+	// turn off wrapper margin 
+
+	h2{
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    button, .button{
+        a{
+            font-size: 0.7em;
+        }
+    }
+
+    .consultation{
+        padding: 1%;
+        background: $nextBlue;
+        h4{
+            font-size: 1.2em;
+            text-align: center;
+            // color: $nextWhite;
+            // font-style: italic;
+            width: 100%;
+        }
+        button{
+            // background:$nextWhite;
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            a{
+            }
+        }
+    }
+}
+ 
+@media (max-width: 480px) {
+ 
+}
