@@ -262,10 +262,11 @@ nav {
         nav .wrapper .desktop-nav li a {
           text-decoration: none;
           color: #333; }
-        nav .wrapper .desktop-nav li a:hover, nav .wrapper .desktop-nav li a:focus {
+        nav .wrapper .desktop-nav li a:hover,
+        nav .wrapper .desktop-nav li a:focus {
           color: #01a7e3; }
         nav .wrapper .desktop-nav li .blue {
-          color: grey; }
+          color: #01a7e3; }
         nav .wrapper .desktop-nav li button {
           background: #01a7e3;
           padding: 5px 12px;
@@ -273,9 +274,11 @@ nav {
           outline: none; }
           nav .wrapper .desktop-nav li button a {
             color: #fff; }
-        nav .wrapper .desktop-nav li button:hover, nav .wrapper .desktop-nav li button:focus {
+        nav .wrapper .desktop-nav li button:hover,
+        nav .wrapper .desktop-nav li button:focus {
           background: #01bafc; }
-          nav .wrapper .desktop-nav li button:hover a, nav .wrapper .desktop-nav li button:focus a {
+          nav .wrapper .desktop-nav li button:hover a,
+          nav .wrapper .desktop-nav li button:focus a {
             color: #fff; }
       nav .wrapper .desktop-nav .social {
         margin-right: 5px; }
@@ -302,7 +305,12 @@ nav {
   background: transparent;
   color: #01a7e3; }
 
-.cross:hover, .cross:focus, .cross:active, .hamburger:hover, .hamburger:focus, .hamburger:active {
+.cross:hover,
+.cross:focus,
+.cross:active,
+.hamburger:hover,
+.hamburger:focus,
+.hamburger:active {
   background: transparent;
   color: #01bafc; }
 
@@ -327,7 +335,8 @@ nav {
       color: #333; }
     .hammy-menu li .blue {
       color: #01a7e3; }
-    .hammy-menu li a:hover, .hammy-menu li a:focus {
+    .hammy-menu li a:hover,
+    .hammy-menu li a:focus {
       color: #01a7e3; }
     .hammy-menu li button {
       background: #01a7e3;
@@ -336,9 +345,11 @@ nav {
       outline: none; }
       .hammy-menu li button a {
         color: #fff; }
-    .hammy-menu li button:hover, .hammy-menu li button:focus {
+    .hammy-menu li button:hover,
+    .hammy-menu li button:focus {
       background: #01bafc; }
-      .hammy-menu li button:hover a, .hammy-menu li button:focus a {
+      .hammy-menu li button:hover a,
+      .hammy-menu li button:focus a {
         color: #fff; }
   .hammy-menu .flex button {
     margin-right: 5px; }
