@@ -17,6 +17,7 @@ $(document).ready(function () {
 
     $(".cross").hide();
     $(".hammy-menu").hide();
+
     $(".hamburger").click(function () {
         $(".hammy-menu").slideToggle("slow", function () {
             $(".hamburger").hide();
@@ -130,32 +131,32 @@ Services Click and Toggle information
 
 $('.service-item-1').click(function () {
     $(".toggle-1").toggle("fast");
-    $(".info-1").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-1").css("background", "rgba(1, 167, 227, 0.8)");
 });
 $('.service-item-2').click(function () {
     $(".toggle-2").toggle("fast");
-    $(".info-2").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-2").css("background", "rgba(1, 167, 227, 0.8)");
 });
 $('.service-item-3').click(function () {
     $(".toggle-3").toggle("fast");
-    $(".info-3").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-3").css("background", "rgba(1, 167, 227, 0.8)");
 });
 $('.service-item-4').click(function () {
     $(".toggle-4").toggle("fast");
-    $(".info-4").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-4").css("background", "rgba(1, 167, 227, 0.8)");
 });
 $('.service-item-5').click(function () {
     $(".toggle-5").toggle("fast");
-    $(".info-5").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-5").css("background", "rgba(1, 167, 227, 0.8)");
 });
 $('.service-item-6').click(function () {
     $(".toggle-6").toggle("fast");
-    $(".info-6").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-6").css("background", "rgba(1, 167, 227, 0.8)");
 });
 
 $('.service-item-1').mouseover(function () {
     $(".toggle-1").show("fast");
-    $(".info-1").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-1").css("background", "rgba(1, 167, 227, 0.8)");
     $(".info-1").css("height", "100%");
 });
 $('.service-item-1').mouseleave(function () {
@@ -165,7 +166,7 @@ $('.service-item-1').mouseleave(function () {
 });
 $('.service-item-2').mouseover(function () {
     $(".toggle-2").show("fast");
-    $(".info-2").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-2").css("background", "rgba(1, 167, 227, 0.8)");
     $(".info-2").css("height", "100%");
 });
 $('.service-item-2').mouseleave(function () {
@@ -175,7 +176,7 @@ $('.service-item-2').mouseleave(function () {
 });
 $('.service-item-3').mouseover(function () {
     $(".toggle-3").show("fast");
-    $(".info-3").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-3").css("background", "rgba(1, 167, 227, 0.8)");
     $(".info-3").css("height", "100%");
 });
 $('.service-item-3').mouseleave(function () {
@@ -185,7 +186,7 @@ $('.service-item-3').mouseleave(function () {
 });
 $('.service-item-4').mouseover(function () {
     $(".toggle-4").show("fast");
-    $(".info-4").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-4").css("background", "rgba(1, 167, 227, 0.8)");
     $(".info-4").css("height", "100%");
 });
 $('.service-item-4').mouseleave(function () {
@@ -195,7 +196,7 @@ $('.service-item-4').mouseleave(function () {
 });
 $('.service-item-5').mouseover(function () {
     $(".toggle-5").show("fast");
-    $(".info-5").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-5").css("background", "rgba(1, 167, 227, 0.8)");
     $(".info-5").css("height", "100%");
 });
 $('.service-item-5').mouseleave(function () {
@@ -205,7 +206,7 @@ $('.service-item-5').mouseleave(function () {
 });
 $('.service-item-6').mouseover(function () {
     $(".toggle-6").show("fast");
-    $(".info-6").css("background", "rgba(1, 167, 227, 0.7)");
+    $(".info-6").css("background", "rgba(1, 167, 227, 0.8)");
     $(".info-6").css("height", "100%");
 });
 $('.service-item-6').mouseleave(function () {

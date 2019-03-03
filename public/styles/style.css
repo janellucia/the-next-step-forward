@@ -492,6 +492,199 @@ header {
     -ms-flex-direction: column;
         flex-direction: column; } }
 
+.footer-alternative {
+  background: #0189ba;
+  color: #fff; }
+  .footer-alternative .wrapper {
+    -ms-flex-align: start;
+        align-items: flex-start; }
+  .footer-alternative a {
+    color: #fff;
+    line-height: 1.2; }
+  .footer-alternative a:hover,
+  .footer-alternative a:focus {
+    text-decoration: underline; }
+  .footer-alternative section {
+    width: 20%;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    padding: 40px 0 0 0; }
+    .footer-alternative section h5 {
+      font-size: 1em;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0; }
+  .footer-alternative .partnership-section {
+    padding: 40px 0 0 0; }
+    .footer-alternative .partnership-section h5 {
+      margin: 0; }
+    .footer-alternative .partnership-section .resolved-logo {
+      margin-bottom: 20px; }
+  .footer-alternative .association-section,
+  .footer-alternative .partnership-section {
+    margin-bottom: 40px; }
+    .footer-alternative .association-section .footer-images,
+    .footer-alternative .partnership-section .footer-images {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+      .footer-alternative .association-section .footer-images a img,
+      .footer-alternative .partnership-section .footer-images a img {
+        margin: 5px 10px 5px 0;
+        height: 65px;
+        width: auto; }
+      .footer-alternative .association-section .footer-images .ccf-logo,
+      .footer-alternative .association-section .footer-images .resolved-logo,
+      .footer-alternative .association-section .footer-images homstar-logo,
+      .footer-alternative .partnership-section .footer-images .ccf-logo,
+      .footer-alternative .partnership-section .footer-images .resolved-logo,
+      .footer-alternative .partnership-section .footer-images homstar-logo {
+        display: block; }
+        .footer-alternative .association-section .footer-images .ccf-logo img,
+        .footer-alternative .association-section .footer-images .resolved-logo img,
+        .footer-alternative .association-section .footer-images homstar-logo img,
+        .footer-alternative .partnership-section .footer-images .ccf-logo img,
+        .footer-alternative .partnership-section .footer-images .resolved-logo img,
+        .footer-alternative .partnership-section .footer-images homstar-logo img {
+          height: 45px; }
+  .footer-alternative .right-side .contact .social {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    padding: 0; }
+    .footer-alternative .right-side .contact .social li {
+      list-style: none;
+      margin-right: 10px; }
+      .footer-alternative .right-side .contact .social li button {
+        background: #fff;
+        padding: 5px 12px;
+        border: none;
+        outline: none;
+        height: 44px;
+        width: 44px; }
+        .footer-alternative .right-side .contact .social li button a {
+          color: #01a7e3;
+          font-size: 1.3em; }
+      .footer-alternative .right-side .contact .social li button:hover,
+      .footer-alternative .right-side .contact .social li button:focus {
+        background: #f2f2f2; }
+        .footer-alternative .right-side .contact .social li button:hover a,
+        .footer-alternative .right-side .contact .social li button:focus a {
+          text-decoration: none; }
+  .footer-alternative .right-side .contact p {
+    font-size: 0.8em; }
+  .footer-alternative .copyright {
+    width: 100%; }
+
+@media (max-width: 1025px) {
+  .footer-alternative .wrapper {
+    -ms-flex-align: start;
+        align-items: flex-start; }
+  .footer-alternative section {
+    width: 33%;
+    max-width: 250px;
+    margin: 0 auto;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 20px 20px 0 0; }
+  .footer-alternative .about {
+    display: none; }
+  .footer-alternative .association-section,
+  .footer-alternative .partnership-section {
+    margin-bottom: 20px; }
+    .footer-alternative .association-section .footer-images a img,
+    .footer-alternative .partnership-section .footer-images a img {
+      height: 55px; }
+    .footer-alternative .association-section .footer-images .ccf-logo,
+    .footer-alternative .association-section .footer-images .resolved-logo,
+    .footer-alternative .association-section .footer-images homstar-logo,
+    .footer-alternative .partnership-section .footer-images .ccf-logo,
+    .footer-alternative .partnership-section .footer-images .resolved-logo,
+    .footer-alternative .partnership-section .footer-images homstar-logo {
+      display: block; }
+      .footer-alternative .association-section .footer-images .ccf-logo img,
+      .footer-alternative .association-section .footer-images .resolved-logo img,
+      .footer-alternative .association-section .footer-images homstar-logo img,
+      .footer-alternative .partnership-section .footer-images .ccf-logo img,
+      .footer-alternative .partnership-section .footer-images .resolved-logo img,
+      .footer-alternative .partnership-section .footer-images homstar-logo img {
+        height: 40px; }
+  .footer-alternative .copyright {
+    width: 100%;
+    max-width: 100%;
+    text-align: center; } }
+
+@media (max-width: 768px) {
+  .footer-alternative .wrapper {
+    -ms-flex-align: start;
+        align-items: flex-start; }
+  .footer-alternative section {
+    width: 50%;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 20px 20px 0 0; }
+  .footer-alternative .about,
+  .footer-alternative .contact {
+    display: block;
+    margin-top: 40px; }
+  .footer-alternative .association-section,
+  .footer-alternative .partnership-section {
+    margin-bottom: 10px; }
+    .footer-alternative .association-section .footer-images a img,
+    .footer-alternative .partnership-section .footer-images a img {
+      margin: 5px 10px 5px 0;
+      height: 65px;
+      width: auto; }
+    .footer-alternative .association-section .footer-images .ccf-logo,
+    .footer-alternative .association-section .footer-images .resolved-logo,
+    .footer-alternative .association-section .footer-images homstar-logo,
+    .footer-alternative .partnership-section .footer-images .ccf-logo,
+    .footer-alternative .partnership-section .footer-images .resolved-logo,
+    .footer-alternative .partnership-section .footer-images homstar-logo {
+      display: block; }
+      .footer-alternative .association-section .footer-images .ccf-logo img,
+      .footer-alternative .association-section .footer-images .resolved-logo img,
+      .footer-alternative .association-section .footer-images homstar-logo img,
+      .footer-alternative .partnership-section .footer-images .ccf-logo img,
+      .footer-alternative .partnership-section .footer-images .resolved-logo img,
+      .footer-alternative .partnership-section .footer-images homstar-logo img {
+        height: 45px; } }
+
+@media (max-width: 500px) {
+  .footer-alternative section {
+    width: 100%;
+    clear: both; }
+  .footer-alternative .about {
+    display: block;
+    margin-top: 40px; }
+  .footer-alternative .contact {
+    margin-top: 0; }
+  .footer-alternative .association-section,
+  .footer-alternative .partnership-section {
+    margin-bottom: 10px; }
+    .footer-alternative .association-section .footer-images a img,
+    .footer-alternative .partnership-section .footer-images a img {
+      margin: 5px 10px 5px 0;
+      height: 65px;
+      width: auto; }
+    .footer-alternative .association-section .footer-images .ccf-logo,
+    .footer-alternative .association-section .footer-images .resolved-logo,
+    .footer-alternative .association-section .footer-images homstar-logo,
+    .footer-alternative .partnership-section .footer-images .ccf-logo,
+    .footer-alternative .partnership-section .footer-images .resolved-logo,
+    .footer-alternative .partnership-section .footer-images homstar-logo {
+      display: block; }
+      .footer-alternative .association-section .footer-images .ccf-logo img,
+      .footer-alternative .association-section .footer-images .resolved-logo img,
+      .footer-alternative .association-section .footer-images homstar-logo img,
+      .footer-alternative .partnership-section .footer-images .ccf-logo img,
+      .footer-alternative .partnership-section .footer-images .resolved-logo img,
+      .footer-alternative .partnership-section .footer-images homstar-logo img {
+        height: 45px; } }
+
 #about {
   display: -ms-flexbox;
   display: flex;
@@ -612,7 +805,8 @@ header {
   #services h4 {
     width: 100%;
     text-align: center;
-    font-size: 2.2em; }
+    font-size: 2.5em;
+    margin-bottom: 0; }
     #services h4 a {
       font-style: italic;
       color: #fff; }
@@ -627,7 +821,7 @@ header {
     height: auto;
     position: relative;
     margin: 10px auto;
-    border: 3px solid #fff; }
+    border: 1px solid #fff; }
     #services .service-item img {
       width: 100%;
       height: auto;
@@ -648,7 +842,8 @@ header {
         font-family: "Open Sans", sans-serif;
         font-weight: 600;
         margin: 0;
-        font-size: 1.3em; }
+        font-size: 1.3em;
+        text-transform: uppercase; }
       #services .service-item .info .toggle {
         display: none;
         padding: 0 7px;
@@ -665,7 +860,7 @@ header {
             font-size: 1em;
             text-transform: uppercase; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #services .service-item {
     width: 48%; } }
 
@@ -687,7 +882,8 @@ header {
     height: 600px;
     position: absolute;
     top: 10%;
-    left: 10%; }
+    left: 50%;
+    transform: translateX(-50%); }
     #testimonials .wrapper h2 {
       font-family: "Open Sans", sans-serif;
       text-transform: uppercase;
@@ -794,19 +990,21 @@ header {
     right: 40px; }
 
 @media (max-width: 768px) {
-  #testimonials .wrapper #carousel {
-    width: 95%; }
-    #testimonials .wrapper #carousel #slides ul .slide .before-after {
-      width: 100%; }
-      #testimonials .wrapper #carousel #slides ul .slide .before-after .img-wrap {
-        width: 49%; }
-        #testimonials .wrapper #carousel #slides ul .slide .before-after .img-wrap p {
-          font-size: 0.7em;
-          padding: 2px; }
-    #testimonials .wrapper #carousel #slides ul .slide .quote-phrase,
-    #testimonials .wrapper #carousel #slides ul .slide .quote-author,
-    #testimonials .wrapper #carousel #slides ul .slide .author-credits {
-      font-size: 0.8em; }
+  #testimonials .wrapper {
+    width: 100%;
+    left: 0;
+    transform: none; }
+    #testimonials .wrapper #carousel {
+      width: 95%; }
+      #testimonials .wrapper #carousel #slides ul .slide .before-after {
+        width: 100%; }
+        #testimonials .wrapper #carousel #slides ul .slide .before-after .img-wrap {
+          width: 49%; }
+      #testimonials .wrapper #carousel #slides ul .slide .quote-phrase,
+      #testimonials .wrapper #carousel #slides ul .slide .quote-author,
+      #testimonials .wrapper #carousel #slides ul .slide .author-credits {
+        font-size: 0.7em;
+        padding: 20px; }
   #slide-buttons #prev {
     left: 0px; }
   #slide-buttons #next {
@@ -842,15 +1040,15 @@ header {
           align-content: stretch; }
       #team .wrapper .team-members .team-member,
       .team-page .wrapper .team-members .team-member {
-        width: 32%;
-        padding: 2%;
+        width: 48%;
+        padding: 20px;
         background: #01a7e3;
         color: #fff;
-        margin-bottom: 20px; }
+        margin: 1%;
+        border-radius: 5px; }
         #team .wrapper .team-members .team-member .info,
         .team-page .wrapper .team-members .team-member .info {
-          width: 100%;
-          text-align: center; }
+          width: 100%; }
           #team .wrapper .team-members .team-member .info .name,
           #team .wrapper .team-members .team-member .info .title,
           .team-page .wrapper .team-members .team-member .info .name,
@@ -866,22 +1064,31 @@ header {
           #team .wrapper .team-members .team-member .info a,
           .team-page .wrapper .team-members .team-member .info a {
             display: block;
-            color: #fff; }
+            color: #fff;
+            font-size: 0.8em; }
           #team .wrapper .team-members .team-member .info a:hover,
-          .team-page .wrapper .team-members .team-member .info a:hover {
-            color: lightgrey; }
-      #team .wrapper .team-members .clare,
-      .team-page .wrapper .team-members .clare {
+          #team .wrapper .team-members .team-member .info a:focus,
+          .team-page .wrapper .team-members .team-member .info a:hover,
+          .team-page .wrapper .team-members .team-member .info a:focus {
+            text-decoration: underline; }
+          #team .wrapper .team-members .team-member .info p,
+          .team-page .wrapper .team-members .team-member .info p {
+            font-size: 0.9em; }
+      #team .wrapper .team-members .img-profile,
+      .team-page .wrapper .team-members .img-profile {
+        padding: 20px;
         width: 100%; }
-        #team .wrapper .team-members .clare img,
-        .team-page .wrapper .team-members .clare img {
-          width: 25%;
+        #team .wrapper .team-members .img-profile img,
+        .team-page .wrapper .team-members .img-profile img {
           height: auto;
-          border-radius: 50%; }
-        #team .wrapper .team-members .clare .info,
-        .team-page .wrapper .team-members .clare .info {
+          padding: 20px;
+          width: 28%; }
+        #team .wrapper .team-members .img-profile .info,
+        .team-page .wrapper .team-members .img-profile .info {
           width: 70%;
-          text-align: left; }
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 20px; }
 
 .team-page {
   background: url("/images/background_05.jpg"); }
@@ -892,10 +1099,10 @@ header {
     width: 100%;
     text-align: center; }
 
-@media (max-width: 768px) {
+@media (min-width: 551px) and (max-width: 1025px) {
   #team .wrapper .team-members .team-member,
   .team-page .wrapper .team-members .team-member {
-    width: 100%; }
+    width: 48%; }
     #team .wrapper .team-members .team-member .info .name,
     #team .wrapper .team-members .team-member .info .title,
     .team-page .wrapper .team-members .team-member .info .name,
@@ -905,19 +1112,20 @@ header {
     #team .wrapper .team-members .team-member .info .title,
     .team-page .wrapper .team-members .team-member .info .title {
       font-size: 1em; }
-  #team .wrapper .team-members .clare img,
-  .team-page .wrapper .team-members .clare img {
-    width: 40%;
-    display: block;
-    margin: 0 auto; }
-  #team .wrapper .team-members .clare .info,
-  .team-page .wrapper .team-members .clare .info {
-    width: 60%;
-    text-align: center; }
+  #team .wrapper .team-members .img-profile,
+  .team-page .wrapper .team-members .img-profile {
+    width: 100%; }
+    #team .wrapper .team-members .img-profile img,
+    #team .wrapper .team-members .img-profile .info,
+    .team-page .wrapper .team-members .img-profile img,
+    .team-page .wrapper .team-members .img-profile .info {
+      width: 47%;
+      display: inline-block;
+      vertical-align: top; }
   .team-page h1 {
     font-size: 1.5em; } }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   #team .wrapper .team-members .team-member,
   .team-page .wrapper .team-members .team-member {
     width: 100%; }
@@ -930,15 +1138,14 @@ header {
     #team .wrapper .team-members .team-member .info .title,
     .team-page .wrapper .team-members .team-member .info .title {
       font-size: 1em; }
-  #team .wrapper .team-members .clare img,
-  .team-page .wrapper .team-members .clare img {
-    width: 60%;
-    display: block;
-    margin: 0 auto; }
-  #team .wrapper .team-members .clare .info,
-  .team-page .wrapper .team-members .clare .info {
-    width: 100%;
-    text-align: center; } }
+  #team .wrapper .team-members .img-profile,
+  .team-page .wrapper .team-members .img-profile {
+    width: 100%; }
+    #team .wrapper .team-members .img-profile img,
+    #team .wrapper .team-members .img-profile .info,
+    .team-page .wrapper .team-members .img-profile img,
+    .team-page .wrapper .team-members .img-profile .info {
+      width: 100%; } }
 
 #contact {
   width: 100%;
@@ -947,58 +1154,67 @@ header {
   overflow-y: scroll; }
   #contact .wrapper {
     padding: 70px 0; }
-    #contact .wrapper .contact-title .logo {
-      width: 50%;
-      margin: 0 auto;
-      padding: 10px 0; }
-      #contact .wrapper .contact-title .logo img {
-        width: 100%; }
-    #contact .wrapper .contact-title .info {
-      padding: 0 0 15px 0;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center;
-      -ms-flex-align: center;
-          align-items: center;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
-      #contact .wrapper .contact-title .info h1,
-      #contact .wrapper .contact-title .info h3 {
-        text-align: center;
-        font-size: 2em;
-        font-style: italic;
-        margin: 0;
-        width: 100%; }
-      #contact .wrapper .contact-title .info h1 {
-        font-size: 2.8em;
-        margin: 10px 0 20px 0; }
-      #contact .wrapper .contact-title .info p {
-        width: 100%;
-        text-align: center;
-        font-size: 1.5em;
-        margin: 0;
-        color: grey; }
-      #contact .wrapper .contact-title .info a {
-        margin: 20px 10px;
-        color: grey;
-        font-size: 1.2em; }
-      #contact .wrapper .contact-title .info a:hover,
-      #contact .wrapper .contact-title .info a:focus,
-      #contact .wrapper .contact-title .info a:active {
-        color: #01a7e3; }
-      #contact .wrapper .contact-title .info ul {
-        padding: 0;
-        margin: 15px 0;
+    #contact .wrapper .contact-title {
+      margin: 20px 0; }
+      #contact .wrapper .contact-title .logo {
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px 0; }
+        #contact .wrapper .contact-title .logo img {
+          width: 100%; }
+      #contact .wrapper .contact-title .info {
+        padding: 0 0 15px 0;
+        display: -ms-flexbox;
+        display: flex;
         -ms-flex-pack: center;
-            justify-content: center; }
-        #contact .wrapper .contact-title .info ul li {
-          list-style: none;
-          margin-right: 10px; }
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        #contact .wrapper .contact-title .info h1,
+        #contact .wrapper .contact-title .info h3 {
+          text-align: center;
+          font-size: 1.5em;
+          font-weight: 600;
+          margin: 10px auto; }
+        #contact .wrapper .contact-title .info h1 {
+          font-size: 2.8em;
+          margin: 10px 0 20px 0; }
+        #contact .wrapper .contact-title .info h2 {
+          font-family: "Open Sans", sans-serif;
+          font-size: 1.5em; }
+        #contact .wrapper .contact-title .info p {
+          width: 100%;
+          text-align: center;
+          font-size: 1.5em;
+          margin: 0;
+          color: grey; }
+        #contact .wrapper .contact-title .info a {
+          margin: 20px 10px;
+          color: grey;
+          font-size: 1.2em; }
+        #contact .wrapper .contact-title .info a:hover,
+        #contact .wrapper .contact-title .info a:focus,
+        #contact .wrapper .contact-title .info a:active {
+          color: #01a7e3; }
+        #contact .wrapper .contact-title .info ul {
+          padding: 0;
+          margin: 15px 0;
+          -ms-flex-pack: center;
+              justify-content: center; }
+          #contact .wrapper .contact-title .info ul li {
+            list-style: none;
+            margin-right: 10px; }
+        #contact .wrapper .contact-title .info .form-text {
+          width: 75%;
+          margin: 0 auto;
+          color: #fff;
+          font-size: 1em; }
     #contact .wrapper form {
       background: #01a7e3;
       color: #fff;
-      padding: 25px;
+      padding: 40px 25px;
       width: 80%;
       margin: 20px auto; }
       #contact .wrapper form fieldset {
@@ -1008,10 +1224,8 @@ header {
         margin-bottom: 20px; }
         #contact .wrapper form fieldset legend {
           width: 100%;
-          text-align: center;
           font-size: 1.2em;
-          font-weight: 600;
-          margin: 15px 0; }
+          font-weight: 600; }
         #contact .wrapper form fieldset input,
         #contact .wrapper form fieldset textarea {
           width: 100%;
@@ -1025,30 +1239,30 @@ header {
         #contact .wrapper form fieldset textarea {
           height: 200px; }
         #contact .wrapper form fieldset .input-field {
-          width: 30%;
-          margin: 0 1%;
+          width: 48%;
+          margin: 10px 1%;
           padding: 0;
           float: left; }
-        #contact .wrapper form fieldset .list-item {
-          display: inline;
-          margin-left: 10px; }
-          #contact .wrapper form fieldset .list-item label {
-            width: 80%;
-            font-size: 1em;
-            text-align: left; }
-            #contact .wrapper form fieldset .list-item label input {
-              width: 20px; }
-            #contact .wrapper form fieldset .list-item label input:checked {
-              border: 4px solid black; }
+      #contact .wrapper form .radio-service .list-item {
+        width: 48%;
+        display: inline-block; }
+        #contact .wrapper form .radio-service .list-item label {
+          font-size: 1em;
+          text-align: left; }
+          #contact .wrapper form .radio-service .list-item label input {
+            width: 20px; }
+          #contact .wrapper form .radio-service .list-item label input:checked {
+            border: 4px solid black; }
       #contact .wrapper form .button {
-        color: #fff;
-        background: -webkit-linear-gradient(#8d8d8d, grey);
-        border: 0;
+        color: #01a7e3;
+        font-weight: 700;
+        background: #fff;
+        border: 1px solid #fff;
         outline: 0;
         padding: 7px 12px;
         width: 40%;
-        border-radius: 5px;
-        margin: 20px auto;
+        height: 44px;
+        margin: 20px 10px;
         display: block;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -1057,13 +1271,8 @@ header {
       #contact .wrapper form .button:hover,
       #contact .wrapper form .button:focus,
       #contact .wrapper form .button:active {
-        background: grey;
-        color: #fff;
+        background: rgba(255, 255, 255, 0.9);
         outline: 0; }
-        #contact .wrapper form .button:hover a,
-        #contact .wrapper form .button:focus a,
-        #contact .wrapper form .button:active a {
-          color: #fff; }
 
 @media (max-width: 768px) {
   #contact .wrapper .contact-title .logo {
@@ -1087,11 +1296,7 @@ header {
       font-size: 1em; }
     #contact .wrapper form fieldset .input-field {
       width: 49%;
-      margin: 0 1% 0 0; }
-    #contact .wrapper form fieldset .list-item {
-      width: 50%; }
-      #contact .wrapper form fieldset .list-item label {
-        font-size: 0.8em; } }
+      margin: 0 1% 0 0; } }
 
 @media (max-width: 480px) {
   #contact .wrapper {
@@ -1103,10 +1308,8 @@ header {
       #contact .wrapper form fieldset .input-field {
         width: 100%;
         margin: 0; }
-      #contact .wrapper form fieldset .list-item {
-        width: 50%; }
-        #contact .wrapper form fieldset .list-item label {
-          font-size: 0.8em; } }
+      #contact .wrapper form .radio-service .list-item {
+        width: 100%; } }
 
 #about-page {
   display: -ms-flexbox;
