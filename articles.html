@@ -396,7 +396,10 @@
         </div>
         <section class="copyright">
             <div class="wrapper flex">
-                <p class="flex">Copyright &copy; 2018 The Next Step Forward Inc.</p>
+                <p class="flex">Copyright &copy;
+                    <script>
+                        new Date().getFullYear() > 2010 && document.write(" " + new Date().getFullYear());
+                    </script> The Next Step Forward Inc.</p>
                 <p>Website Created by <a href="https://www.janellucia.com" target="new">Janel Lucia</a></p>
                 <!-- <p></p> -->
             </div>
