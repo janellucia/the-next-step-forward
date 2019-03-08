@@ -1379,9 +1379,14 @@ header {
       line-height: 1.2;
       margin-bottom: 0;
       color: #016f97; }
-    .service-page .service-wrapper .service-copy {
-      margin: 5px 0 40px 0; }
+    .service-page .service-wrapper .service-title,
+    .service-page .service-wrapper .service-copy,
+    .service-page .service-wrapper ol {
+      margin: 5px auto 40px auto;
+      max-width: 1000px; }
     .service-page .service-wrapper .price {
+      max-width: 1000px;
+      margin: 20px auto;
       font-style: italic;
       font-size: 0.9em; }
       .service-page .service-wrapper .price .amount {
@@ -1390,6 +1395,8 @@ header {
     border-bottom: none; }
 
 .fine-print {
+  max-width: 1000px;
+  margin: 0 auto;
   font-size: 0.7em;
   font-style: italic; }
 
@@ -1412,7 +1419,7 @@ header {
 
 .wrapper {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto; }
 
 body {
