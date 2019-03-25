@@ -437,6 +437,38 @@ header {
     .header-contact .landing .tagline-2 {
       margin: 0; }
 
+.header-night-before {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/christmas-decor.jpg") no-repeat 50% 75%;
+  background-size: cover; }
+  .header-night-before .landing {
+    margin: 20px 0; }
+    .header-night-before .landing .tagline-2 {
+      margin: 0; }
+
+.header-xmas-gift {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/christmas-gifts.jpg") no-repeat 50% 50%;
+  background-size: cover; }
+  .header-xmas-gift .landing {
+    margin: 20px 0; }
+    .header-xmas-gift .landing .tagline-2 {
+      margin: 0; }
+
+.header-unwanted-books {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/unwanted-books.jpg") no-repeat 50% 87%;
+  background-size: cover; }
+  .header-unwanted-books .landing {
+    margin: 20px 0; }
+    .header-unwanted-books .landing .tagline-2 {
+      margin: 0; }
+
+.header-where-to-start {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/clutter.jpg") no-repeat 50% 50%;
+  background-size: cover; }
+  .header-where-to-start .landing {
+    margin: 20px 0; }
+    .header-where-to-start .landing .tagline-2 {
+      margin: 0; }
+
 @media (max-width: 768px) {
   header {
     background-attachment: static; }
@@ -1378,7 +1410,8 @@ header {
       font-size: 2em;
       line-height: 1.2;
       margin-bottom: 0;
-      color: #016f97; }
+      color: #016f97;
+      font-weight: 400; }
     .service-page .service-wrapper .service-title,
     .service-page .service-wrapper .service-copy,
     .service-page .service-wrapper ol {
