@@ -379,7 +379,7 @@ a.hidden:focus {
 
 header {
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/background_01.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_01.jpg") no-repeat 50% 50%;
   background-size: cover;
   overflow-y: scroll; }
   header .landing {
@@ -405,24 +405,23 @@ header {
         font-size: 1.5em;
         text-align: center;
         font-weight: 700;
-        font-style: italic;
         margin: 0; }
         header .landing .wrapper .tagline-2 span {
           color: #01a7e3; }
 
 .header-about,
-.header-team {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/background_03.jpg") no-repeat 50% 50%;
+.header-articles {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_03.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .header-about .landing,
-  .header-team .landing {
+  .header-articles .landing {
     margin: 20px 0; }
     .header-about .landing .tagline-2,
-    .header-team .landing .tagline-2 {
+    .header-articles .landing .tagline-2 {
       margin: 0; }
 
 .header-services {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .header-services .landing {
     margin: 20px 0; }
@@ -430,7 +429,7 @@ header {
       margin: 0; }
 
 .header-contact {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/background_02.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .header-contact .landing {
     margin: 20px 0; }
@@ -438,7 +437,7 @@ header {
       margin: 0; }
 
 .header-night-before {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/christmas-decor.jpg") no-repeat 50% 75%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/articles/christmas-decor.jpg") no-repeat 50% 75%;
   background-size: cover; }
   .header-night-before .landing {
     margin: 20px 0; }
@@ -446,7 +445,7 @@ header {
       margin: 0; }
 
 .header-xmas-gift {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/christmas-gifts.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/articles/christmas-gifts.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .header-xmas-gift .landing {
     margin: 20px 0; }
@@ -967,6 +966,7 @@ header {
                 justify-content: flex-end; }
             #testimonials .wrapper #carousel #slides ul .slide .before-after {
               width: 80%;
+              min-height: 150px;
               -ms-flex-pack: center;
                   justify-content: center;
               margin: 0 auto; }
@@ -1038,16 +1038,18 @@ header {
     left: 0;
     transform: none; }
     #testimonials .wrapper #carousel {
-      width: 95%; }
-      #testimonials .wrapper #carousel #slides ul .slide .before-after {
-        width: 100%; }
-        #testimonials .wrapper #carousel #slides ul .slide .before-after .img-wrap {
-          width: 49%; }
-      #testimonials .wrapper #carousel #slides ul .slide .quote-phrase,
-      #testimonials .wrapper #carousel #slides ul .slide .quote-author,
-      #testimonials .wrapper #carousel #slides ul .slide .author-credits {
-        font-size: 0.7em;
-        padding: 20px; }
+      width: 75%; }
+      #testimonials .wrapper #carousel #slides {
+        margin: 0 auto; }
+        #testimonials .wrapper #carousel #slides ul .slide .before-after {
+          min-height: 150px; }
+          #testimonials .wrapper #carousel #slides ul .slide .before-after .img-wrap {
+            width: 49%; }
+        #testimonials .wrapper #carousel #slides ul .slide .quote-phrase,
+        #testimonials .wrapper #carousel #slides ul .slide .quote-author,
+        #testimonials .wrapper #carousel #slides ul .slide .author-credits {
+          font-size: 0.7em;
+          padding: 20px; }
   #slide-buttons #prev {
     left: 0px; }
   #slide-buttons #next {
@@ -1060,17 +1062,28 @@ header {
     position: static;
     height: auto; }
     #testimonials .wrapper h2 {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+    #testimonials .wrapper #carousel {
+      width: 85%; }
+      #testimonials .wrapper #carousel #slides ul .slide .before-after {
+        width: 100%;
+        min-height: 100px; }
+        #testimonials .wrapper #carousel #slides ul .slide .before-after img {
+          width: 49%; }
+      #testimonials .wrapper #carousel #slides ul .slide .quote-phrase,
+      #testimonials .wrapper #carousel #slides ul .slide .quote-author,
+      #testimonials .wrapper #carousel #slides ul .slide .author-credits {
+        font-size: 0.8em; } }
 
 #team,
 .team-page {
-  background: #333; }
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.6) url("/images/background_07.png") no-repeat 50% 50%;
+  background-size: cover; }
   #team .wrapper,
   .team-page .wrapper {
     padding: 70px 0; }
     #team .wrapper h2,
     .team-page .wrapper h2 {
-      color: #fff;
       font-family: "Open Sans", sans-serif;
       text-transform: uppercase;
       font-style: normal;
@@ -1085,8 +1098,8 @@ header {
       .team-page .wrapper .team-members .team-member {
         width: 48%;
         padding: 20px;
-        background: #01a7e3;
-        color: #fff;
+        background: #fcfcfc;
+        border-bottom: 10px solid #01a7e3;
         margin: 1%;
         border-radius: 5px; }
         #team .wrapper .team-members .team-member .info,
@@ -1100,14 +1113,12 @@ header {
             font-size: 1.3em;
             font-weight: 700;
             font-family: "Open Sans", sans-serif;
-            margin: 0; }
-          #team .wrapper .team-members .team-member .info .title,
-          .team-page .wrapper .team-members .team-member .info .title {
-            font-size: 1em; }
+            margin: 0;
+            color: #01a7e3; }
           #team .wrapper .team-members .team-member .info a,
           .team-page .wrapper .team-members .team-member .info a {
             display: block;
-            color: #fff;
+            color: #01a7e3;
             font-size: 0.8em; }
           #team .wrapper .team-members .team-member .info a:hover,
           #team .wrapper .team-members .team-member .info a:focus,
@@ -1258,7 +1269,8 @@ header {
       background: #01a7e3;
       color: #fff;
       padding: 40px 25px;
-      width: 80%;
+      width: 100%;
+      border-radius: 5px;
       margin: 20px auto; }
       #contact .wrapper form fieldset {
         width: 100%;
