@@ -1144,14 +1144,12 @@ header {
           vertical-align: top;
           margin-top: 20px; }
 
-.team-page {
-  background: url("/images/background_05.jpg"); }
-  .team-page h1 {
-    color: black;
-    font-style: italic;
-    font-size: 3em;
-    width: 100%;
-    text-align: center; }
+.team-page h1 {
+  color: black;
+  font-style: italic;
+  font-size: 3em;
+  width: 100%;
+  text-align: center; }
 
 @media (min-width: 551px) and (max-width: 1025px) {
   #team .wrapper .team-members .team-member,
