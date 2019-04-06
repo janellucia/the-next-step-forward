@@ -1096,6 +1096,7 @@ header {
           align-content: stretch; }
       #team .wrapper .team-members .team-member,
       .team-page .wrapper .team-members .team-member {
+        box-shadow: 2px 4px 41px rgba(0, 0, 0, 0.2);
         width: 48%;
         padding: 20px;
         background: #fcfcfc;
