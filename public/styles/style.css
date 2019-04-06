@@ -1077,7 +1077,7 @@ header {
 
 #team,
 .team-page {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.6) url("/images/background_07.png") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
   background-size: cover; }
   #team .wrapper,
   .team-page .wrapper {
@@ -1144,12 +1144,15 @@ header {
           vertical-align: top;
           margin-top: 20px; }
 
-.team-page h1 {
-  color: black;
-  font-style: italic;
-  font-size: 3em;
-  width: 100%;
-  text-align: center; }
+.team-page {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
+  background-size: cover; }
+  .team-page h1 {
+    color: black;
+    font-style: italic;
+    font-size: 3em;
+    width: 100%;
+    text-align: center; }
 
 @media (min-width: 551px) and (max-width: 1025px) {
   #team .wrapper .team-members .team-member,
@@ -1201,7 +1204,7 @@ header {
 
 #contact {
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(211, 211, 211, 0.8)), rgba(211, 211, 211, 0.8) url("/images/services/service-staging.jpg") no-repeat 50% 50%;
+  background: url("/images/background_05.jpg");
   background-size: cover;
   overflow-y: scroll; }
   #contact .wrapper {
