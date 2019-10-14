@@ -136,7 +136,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #01a7e3; }
+  color: #4EA6E3; }
 
 h1,
 h2,
@@ -172,7 +172,7 @@ h2 {
 
 .consultation {
   padding: 10px;
-  background: linear-gradient(rgba(1, 167, 227, 0.9), rgba(1, 167, 227, 0.9)), rgba(1, 167, 227, 0.9) url("/images/background_04.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(78, 166, 227, 0.9), rgba(78, 166, 227, 0.9)), rgba(78, 166, 227, 0.9) url("/images/background_04.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .consultation h3 {
     font-size: 2.3em;
@@ -188,7 +188,7 @@ h2 {
     padding: 7px 12px;
     border-radius: 5px; }
     .consultation button a {
-      color: #01a7e3;
+      color: #4EA6E3;
       letter-spacing: 1px;
       text-transform: uppercase; }
   .consultation button:hover,
@@ -215,7 +215,7 @@ h2 {
     font-size: 1em; }
   .consultation {
     padding: 1%;
-    background: #01a7e3; }
+    background: #4EA6E3; }
     .consultation h3 {
       font-size: 1.7em;
       text-align: center;
@@ -242,8 +242,8 @@ nav {
         flex-wrap: wrap;
     width: 100%; }
     nav .wrapper .header-logo {
-      width: 50px;
-      height: 50px; }
+      width: 40px;
+      height: 40px; }
       nav .wrapper .header-logo img {
         width: 100%; }
     nav .wrapper .desktop-nav {
@@ -264,11 +264,11 @@ nav {
           color: #333; }
         nav .wrapper .desktop-nav li a:hover,
         nav .wrapper .desktop-nav li a:focus {
-          color: #01a7e3; }
+          color: #4EA6E3; }
         nav .wrapper .desktop-nav li .blue {
-          color: #01a7e3; }
+          color: #4EA6E3; }
         nav .wrapper .desktop-nav li button {
-          background: #01a7e3;
+          background: #4EA6E3;
           padding: 5px 12px;
           border: none;
           outline: none; }
@@ -276,7 +276,7 @@ nav {
             color: #fff; }
         nav .wrapper .desktop-nav li button:hover,
         nav .wrapper .desktop-nav li button:focus {
-          background: #01bafc; }
+          background: #A0CFF0; }
           nav .wrapper .desktop-nav li button:hover a,
           nav .wrapper .desktop-nav li button:focus a {
             color: #fff; }
@@ -291,7 +291,7 @@ nav {
   outline: none;
   z-index: 99;
   background: transparent;
-  color: #01a7e3; }
+  color: #4EA6E3; }
 
 .cross {
   background: none;
@@ -303,7 +303,7 @@ nav {
   outline: none;
   z-index: 99;
   background: transparent;
-  color: #01a7e3; }
+  color: #4EA6E3; }
 
 .cross:hover,
 .cross:focus,
@@ -312,7 +312,7 @@ nav {
 .hamburger:focus,
 .hamburger:active {
   background: transparent;
-  color: #01bafc; }
+  color: #64b1e6; }
 
 .hammy-menu {
   display: none;
@@ -334,12 +334,12 @@ nav {
       margin: 0px;
       color: #333; }
     .hammy-menu li .blue {
-      color: #01a7e3; }
+      color: #4EA6E3; }
     .hammy-menu li a:hover,
     .hammy-menu li a:focus {
-      color: #01a7e3; }
+      color: #4EA6E3; }
     .hammy-menu li button {
-      background: #01a7e3;
+      background: #4EA6E3;
       padding: 5px 12px;
       border: none;
       outline: none; }
@@ -347,7 +347,7 @@ nav {
         color: #fff; }
     .hammy-menu li button:hover,
     .hammy-menu li button:focus {
-      background: #01bafc; }
+      background: #A0CFF0; }
       .hammy-menu li button:hover a,
       .hammy-menu li button:focus a {
         color: #fff; }
@@ -379,11 +379,11 @@ a.hidden:focus {
 
 header {
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_01.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_01.jpg") no-repeat 50% 87%;
   background-size: cover;
   overflow-y: scroll; }
   header .landing {
-    margin: 60px 0;
+    margin: 70px 0;
     width: 100%; }
     header .landing .wrapper {
       display: -ms-flexbox;
@@ -394,7 +394,7 @@ header {
           justify-content: center;
       -ms-flex-align: center;
           align-items: center;
-      padding: 50px 0; }
+      padding: 70px 0; }
       header .landing .wrapper .landing-logo-desktop {
         width: 70%;
         height: auto;
@@ -404,51 +404,52 @@ header {
       header .landing .wrapper .tagline-2 {
         font-size: 1.5em;
         text-align: center;
-        font-weight: 700;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
         margin: 0; }
         header .landing .wrapper .tagline-2 span {
-          color: #01a7e3; }
+          color: #4EA6E3; }
 
 .header-about,
 .header-articles {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_03.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/background_02.jpg") no-repeat 50% 85%;
   background-size: cover; }
   .header-about .landing,
   .header-articles .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-about .landing .tagline-2,
     .header-articles .landing .tagline-2 {
       margin: 0; }
 
 .header-services {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), rgba(255, 255, 255, 0.8) url("/images/background_03.jpg") no-repeat 50% 97%;
   background-size: cover; }
   .header-services .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-services .landing .tagline-2 {
       margin: 0; }
 
 .header-contact {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/background_02.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), rgba(255, 255, 255, 0.8) url("/images/background_01.jpg") no-repeat 50% 87%;
   background-size: cover; }
   .header-contact .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-contact .landing .tagline-2 {
       margin: 0; }
 
 .header-night-before {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/articles/christmas-decor.jpg") no-repeat 50% 75%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), rgba(255, 255, 255, 0.8) url("/images/articles/christmas-decor.jpg") no-repeat 50% 75%;
   background-size: cover; }
   .header-night-before .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-night-before .landing .tagline-2 {
       margin: 0; }
 
 .header-xmas-gift {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.6) url("/images/articles/christmas-gifts.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), rgba(255, 255, 255, 0.8) url("/images/articles/christmas-gifts.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .header-xmas-gift .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-xmas-gift .landing .tagline-2 {
       margin: 0; }
 
@@ -456,7 +457,7 @@ header {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/unwanted-books.jpg") no-repeat 50% 87%;
   background-size: cover; }
   .header-unwanted-books .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-unwanted-books .landing .tagline-2 {
       margin: 0; }
 
@@ -464,7 +465,7 @@ header {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), rgba(255, 255, 255, 0.7) url("/images/articles/clutter.jpg") no-repeat 50% 50%;
   background-size: cover; }
   .header-where-to-start .landing {
-    margin: 20px 0; }
+    margin: 70px 0; }
     .header-where-to-start .landing .tagline-2 {
       margin: 0; }
 
@@ -473,9 +474,11 @@ header {
     background-attachment: static; }
     header .landing .wrapper .landing-logo-desktop {
       display: block;
-      width: 100%; }
+      width: 95%; }
     header .landing .wrapper .tagline-2 {
-      font-size: 1.5em; } }
+      font-size: 1.2em; }
+      header .landing .wrapper .tagline-2 br {
+        display: none; } }
 
 @media (max-width: 480px) {
   header .landing .wrapper .tagline-2 {
@@ -498,7 +501,7 @@ header {
 
 #footer .partnership,
 #footer .credits {
-  background: #01a7e3;
+  background: #4EA6E3;
   -ms-flex-direction: column;
       flex-direction: column; }
   #footer .partnership p,
@@ -514,10 +517,10 @@ header {
       width: auto; }
 
 #footer .credits {
-  background: #0182b0; }
+  background: #2390db; }
 
 #footer .copyright {
-  background: #016f97;
+  background: #1f81c5;
   color: white; }
   #footer .copyright a {
     color: white; }
@@ -535,7 +538,7 @@ header {
         flex-direction: column; } }
 
 .footer-alternative {
-  background: #0189ba;
+  background: #2b94dd;
   color: #fff; }
   .footer-alternative .wrapper {
     -ms-flex-align: start;
@@ -608,7 +611,7 @@ header {
         height: 44px;
         width: 44px; }
         .footer-alternative .right-side .contact .social li button a {
-          color: #01a7e3;
+          color: #4EA6E3;
           font-size: 1.3em; }
       .footer-alternative .right-side .contact .social li button:hover,
       .footer-alternative .right-side .contact .social li button:focus {
@@ -739,13 +742,14 @@ header {
       font-size: 2.5em;
       line-height: 1.2; }
     #about .wrapper .blue {
-      color: #01a7e3; }
+      color: #4EA6E3; }
     #about .wrapper .about-text {
       margin: 0 auto; }
       #about .wrapper .about-text p {
         font-size: 1.1em;
         font-weight: 400;
-        letter-spacing: 0.5; }
+        letter-spacing: 0.5;
+        max-width: 750px; }
         #about .wrapper .about-text p span {
           text-transform: uppercase;
           font-weight: 700;
@@ -772,7 +776,7 @@ header {
 
 #consultation {
   margin: 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.6) url("/images/background_07.png") no-repeat 50% 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.6) url("/images/background_07.jpg") no-repeat 50% 94%;
   background-size: cover; }
   #consultation .wrapper {
     padding: 70px 0;
@@ -797,7 +801,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center; }
       #consultation .wrapper .buttons button {
-        background: -webkit-linear-gradient(top, #01b2f2, #01a7e3) !important;
+        background: -webkit-linear-gradient(top, #5bade5, #4EA6E3) !important;
         width: 30%;
         margin: 0 15px 60px 0;
         border: 0;
@@ -815,7 +819,7 @@ header {
           font-size: 1.5em; }
       #consultation .wrapper .buttons button:hover,
       #consultation .wrapper .buttons button:focus {
-        background: #01a7e3 !important; }
+        background: #4EA6E3 !important; }
 
 @media (max-width: 768px) {
   #consultation .wrapper h2 {
@@ -836,7 +840,7 @@ header {
 
 #services {
   padding: 70px 0;
-  background: linear-gradient(rgba(1, 167, 227, 0.8), rgba(1, 167, 227, 0.7)), rgba(1, 167, 227, 0.7) url("/images/background_01.jpg") no-repeat 50% 50%;
+  background: linear-gradient(rgba(78, 166, 227, 0.8), rgba(78, 166, 227, 0.7)), rgba(78, 166, 227, 0.7) url("/images/background_01.jpg") no-repeat 50% 50%;
   background-size: cover; }
   #services h2 {
     font-family: "Open Sans", sans-serif;
@@ -998,7 +1002,7 @@ header {
             #testimonials .wrapper #carousel #slides ul .slide .quote-author,
             #testimonials .wrapper #carousel #slides ul .slide .author-credits {
               width: 100%;
-              color: #01a7e3;
+              color: #4EA6E3;
               font-weight: 600;
               text-transform: uppercase;
               margin: 0; }
@@ -1100,7 +1104,7 @@ header {
         width: 48%;
         padding: 20px;
         background: #fcfcfc;
-        border-bottom: 10px solid #01a7e3;
+        border-bottom: 10px solid #4EA6E3;
         margin: 1%;
         border-radius: 5px; }
         #team .wrapper .team-members .team-member .info,
@@ -1115,11 +1119,11 @@ header {
             font-weight: 700;
             font-family: "Open Sans", sans-serif;
             margin: 0;
-            color: #01a7e3; }
+            color: #4EA6E3; }
           #team .wrapper .team-members .team-member .info a,
           .team-page .wrapper .team-members .team-member .info a {
             display: block;
-            color: #01a7e3;
+            color: #4EA6E3;
             font-size: 0.8em; }
           #team .wrapper .team-members .team-member .info a:hover,
           #team .wrapper .team-members .team-member .info a:focus,
@@ -1204,7 +1208,7 @@ header {
       width: 100%; } }
 
 #subscribe {
-  border-top: 4px solid #01a7e3;
+  border-top: 4px solid #4EA6E3;
   /* Signup form container */
   /* positions input field horizontally */
   /* Input Styles */
@@ -1216,7 +1220,7 @@ header {
     font-weight: 600;
     color: #333; }
     #subscribe .wrapper h3 {
-      color: #01a7e3;
+      color: #4EA6E3;
       line-height: 1;
       font-size: 2.4em;
       font-weight: 500;
@@ -1244,7 +1248,7 @@ header {
   #subscribe .clear {
     display: inline-block; }
   #subscribe .button {
-    background: -webkit-linear-gradient(top, #01b2f2, #01a7e3) !important;
+    background: -webkit-linear-gradient(top, #5bade5, #4EA6E3) !important;
     margin: 0;
     border: 0;
     outline: 0;
@@ -1258,7 +1262,7 @@ header {
     letter-spacing: 1px; }
   #subscribe .button:hover,
   #subscribe .button:focus {
-    background: #01a7e3 !important; }
+    background: #4EA6E3 !important; }
   @media (max-width: 768px) {
     #subscribe {
       /* positions input field and button underneath each other with 100% width for tablet and mobile */ }
@@ -1326,7 +1330,7 @@ header {
         #contact .wrapper .contact-title .info a:hover,
         #contact .wrapper .contact-title .info a:focus,
         #contact .wrapper .contact-title .info a:active {
-          color: #01a7e3; }
+          color: #4EA6E3; }
         #contact .wrapper .contact-title .info ul {
           padding: 0;
           margin: 15px 0;
@@ -1341,7 +1345,7 @@ header {
           color: #fff;
           font-size: 1em; }
     #contact .wrapper form {
-      background: #01a7e3;
+      background: #4EA6E3;
       color: #fff;
       padding: 40px 25px;
       width: 100%;
@@ -1384,7 +1388,7 @@ header {
           #contact .wrapper form .radio-service .list-item label input:checked {
             border: 4px solid black; }
       #contact .wrapper form .button {
-        color: #01a7e3;
+        color: #4EA6E3;
         font-weight: 700;
         background: #fff;
         border: 1px solid #fff;
@@ -1451,7 +1455,7 @@ header {
       font-size: 3em;
       line-height: 1.2; }
     #about-page .wrapper .blue {
-      color: #01a7e3; }
+      color: #4EA6E3; }
     #about-page .wrapper .about-text {
       margin: 0 auto; }
       #about-page .wrapper .about-text p {
@@ -1486,7 +1490,7 @@ header {
     line-height: 1.2;
     font-style: italic; }
   .service-page .service-wrapper {
-    border-bottom: 1px dotted #01a7e3;
+    border-bottom: 1px dotted #4EA6E3;
     width: 80%;
     margin: 0 auto;
     margin-bottom: 20px; }
@@ -1495,7 +1499,7 @@ header {
       font-size: 2em;
       line-height: 1.2;
       margin-bottom: 0;
-      color: #016f97;
+      color: #1f81c5;
       font-weight: 400; }
     .service-page .service-wrapper .service-title,
     .service-page .service-wrapper .service-copy,
@@ -1508,7 +1512,7 @@ header {
       font-style: italic;
       font-size: 0.9em; }
       .service-page .service-wrapper .price .amount {
-        color: #016f97; }
+        color: #1f81c5; }
   .service-page .service-wrapper:last-child {
     border-bottom: none; }
 
@@ -1528,7 +1532,7 @@ header {
       font-size: 1.5em;
       line-height: 1.2;
       margin-bottom: 0;
-      color: #016f97; }
+      color: #1f81c5; }
     .service-page .service-wrapper .service-copy {
       margin: 5px 0 30px 0;
       font-size: 1em; }
@@ -1548,7 +1552,7 @@ body {
   color: #333; }
 
 .blue {
-  color: #01a7e3; }
+  color: #4EA6E3; }
 
 .jsColorShow {
   filter: none !important;
