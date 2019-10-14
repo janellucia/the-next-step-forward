@@ -355,7 +355,7 @@ nav {
     margin-right: 5px; }
 
 .active {
-  background: rgba(231, 231, 231, 0.9);
+  background: white;
   transition: all 0.5s ease 0s; }
 
 @media (max-width: 768px) {
