@@ -734,7 +734,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   padding: 90px 0;
-  background: url("/images/background_05.jpg"); }
+  background: #fefefe; }
   #about .wrapper {
     width: 70%; }
     #about .wrapper .about-title {
@@ -776,7 +776,7 @@ header {
 
 #consultation {
   margin: 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.6) url("/images/background_07.jpg") no-repeat 50% 94%;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6)), rgba(255, 255, 255, 0.5) url("/images/background_07.jpg") no-repeat 50% 68%;
   background-size: cover; }
   #consultation .wrapper {
     padding: 70px 0;
@@ -915,7 +915,7 @@ header {
     width: 90%; } }
 
 #testimonials {
-  background: url("/images/background_05.jpg");
+  background: #fefefe;
   position: relative;
   padding: 70px 0; }
   #testimonials .bg {
