@@ -1,0 +1,584 @@
+.metaslider-flex {
+    #metaslider_container_70 {
+        .flexslider {
+            .slides {
+                .ms-image {
+                    height: 70vh;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .caption-wrap {
+                        width: 100%;
+                        height: 100%;
+                        // min-height: 200px;
+                        text-align: center;
+                        background: rgba($glendaleBlue, 0.5);
+                        color: $glendaleWhite;
+                        opacity: 1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .caption {
+                            @include responsive-font(3vw, 12px, 35px);
+                            line-height: 1.5;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            width: 60%;
+                            .email {
+                                display: block;
+                                width: 60%;
+                                background: $glendaleWhite;
+                                outline: 0;
+                                text-transform: uppercase;
+                                text-align: center;
+                                margin: 25px auto 0 auto;
+                                padding: 1% 8%;
+                                color: $glendaleBlue;
+                                text-decoration: none;
+                                letter-spacing: 2px;
+                                font-weight: 300;
+                                @include responsive-font(1.5vw, 12px, 24px);
+                            }
+                            .email:hover {
+                                background: $glendaleGreen;
+                                outline: 0;
+                            }
+                            .email:active {
+                                background: darken($glendaleGreen, 20%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-wrapper {
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    .about-image {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 70%;
+        height: 100%;
+        margin-left: 10%;
+    }
+    .about-text {
+        width: 50%;
+        height: 80%;
+        background: $glendaleGreen;
+        padding: 0 1%;
+        margin-left: -20%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            @include responsive-font(2vw, 20px, 35px);
+            color: $glendaleWhite;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+        h2 {
+            @include responsive-font(1vw, 12px, 18px);
+            color: $glendaleBlue;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 400;
+            margin-top: 0;
+        }
+        p {
+            @include responsive-font(1.2vw, 14px, 16px);
+            color: $glendaleWhite;
+            text-align: center;
+            font-weight: 300;
+            padding: 2% 2% 7% 2%;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .project-button {
+            background: $glendaleWhite;
+            outline: 0;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 2% 10%;
+            color: $glendaleBlue;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-weight: 700;
+            @include responsive-font(1vw, 8px, 16px);
+        }
+        .project-button:hover {
+            background: lighten($glendaleBlue, 20%);
+            color: $glendaleWhite;
+            outline: 0;
+        }
+        .project-button:active {
+            background: darken($glendaleBlue, 5%);
+        }
+    }
+}
+
+//calendar section area
+.events-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    padding: 5% 0;
+    #tribe-events-adv-list-widget-7,
+    #tribe-events-adv-list-widget-4 {
+        width: 30%;
+        background: $glendaleGreen;
+        z-index: 99;
+        padding: 0 2%;
+        .widget-title {
+            @include responsive-font(2vw, 14px, 35px);
+            color: $glendaleWhite;
+            text-align: center;
+            font-weight: 400;
+        }
+        .type-tribe_events {
+            .tribe-mini-calendar-event {
+                display: flex;
+                background: lighten($glendaleGreen, 10%);
+                height: 100%;
+                border-bottom: none;
+                .list-date {
+                    width: 20%;
+                    background: white;
+                    margin: 0;
+                    .list-dayname {
+                        color: $glendaleGreen;
+                        @include responsive-font(1vw, 14px, 18px);
+                        font-weight: 400;
+                    }
+                    .list-daynumber {
+                        color: $glendaleGreen;
+                        @include responsive-font(1vw, 14px, 18px);
+                        font-weight: 400;
+                    }
+                }
+                .list-info {
+                    margin: 0;
+                    padding: 0 5%;
+                    .tribe-events-title {
+                        @include responsive-font(1.3vw, 12px, 16px);
+                        text-align: left;
+                        a {
+                            color: $glendaleWhite;
+                        }
+                        a:hover {
+                            color: $glendaleLightBlue;
+                        }
+                    }
+                    .tribe-events-duration {
+                        @include responsive-font(1vw, 10px, 14px);
+                        color: $glendaleWhite;
+                    }
+                    .tribe-events-location {
+                        @include responsive-font(1vw, 10px, 14px);
+                        color: $glendaleWhite;
+                        .tribe-events-venue {
+                            a {
+                                color: $glendaleWhite;
+                            }
+                            a:hover {
+                                color: $glendaleLightBlue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tribe-events-widget-link {
+            a {
+                color: $glendaleWhite;
+                @include responsive-font(1.3vw, 14px, 18px);
+            }
+        }
+    }
+    #tribe-mini-calendar-3,
+    #tribe-mini-calendar-2 {
+        width: 80%;
+        height: 100%;
+        .widget-title {
+            display: none;
+        }
+        .tribe-mini-calendar-wrapper {
+            .tribe-mini-calendar-grid-wrapper {
+                .tribe-mini-calendar {
+                    .tribe-mini-calendar-nav {
+                        tr {
+                            td {
+                                background: white;
+                                @include responsive-font(4vw, 16px, 24px);
+                                border: 1px solid white;
+                                color: black;
+                                div {
+                                    .tribe-mini-calendar-nav-link {
+                                        span {
+                                            @include responsive-font(4vw, 16px, 24px);
+                                            color: $glendaleBlue;
+                                        }
+                                    }
+                                    #tribe-mini-calendar-month-0 {
+                                        @include responsive-font(4vw, 16px, 24px);
+                                        color: $glendaleBlue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    thead {
+                        tr {
+                            th {
+                                background: $glendaleGreen;
+                                @include responsive-font(1vw, 12px, 20px);
+                                border: 1px solid $glendaleWhite;
+                                height: 30px;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                height: 80px;
+                            }
+                            .tribe-events-present {
+                                background: darken($glendaleGreen, 10%);
+                            }
+                            .tribe-events-has-events {
+                                background: darken($glendaleGreen, 5%);
+                                .tribe-mini-calendar-day-link {
+                                    background: darken($glendaleGreen, 10%);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .tribe-mini-calendar-list-wrapper {
+                display: none;
+            }
+        }
+    }
+}
+
+.membership {
+    background: darken($glendaleWhite, 5%);
+}
+
+.membership-wrap {
+    padding: 5% 0;
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            @include responsive-font(3vw, 20px, 50px);
+            color: $glendaleBlue;
+            margin: 8px 0 0 0;
+        }
+        p {
+            @include responsive-font(1.5vw, 12px, 26px);
+            color: $glendaleGreen;
+            margin: -3px 0 0 0;
+            text-transform: uppercase;
+        }
+    }
+    .membership-types {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 5% 0;
+        .membership-type {
+            height: 320px;
+            width: 23%;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            margin: 15px 0;
+            padding: 0;
+            .type {
+                background: $glendaleBlue;
+                width: 100%;
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h3 {
+                    @include responsive-font(1.5vw, 14px, 18px);
+                    color: $glendaleWhite;
+                    text-align: center;
+                }
+            }
+            .amount {
+                h3 {
+                    @include responsive-font(2vw, 14px, 18px);
+                    color: $glendaleBlue;
+                    text-align: center;
+                }
+            }
+            .description {
+                padding: 0 15%;
+                p {
+                    text-align: center;
+                    @include responsive-font(1.5vw, 12px, 16px);
+                }
+            }
+            .button {
+                padding: 10% 0;
+                display: flex;
+                justify-content: center;
+                a {
+                    background: $glendaleGreen;
+                    outline: 0;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding: 3% 10%;
+                    color: $glendaleWhite;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    @include responsive-font(1.5vw, 10px, 16px);
+                }
+                a:hover {
+                    background: lighten($glendaleGreen, 10%);
+                    outline: 0;
+                }
+                a:active {
+                    background: darken($glendaleGreen, 10%);
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    display: flex;
+    .contact-form {
+        background: $glendaleBlue;
+        // margin-top: -400px;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            @include responsive-font(2vw, 14px, 35px);
+            color: $glendaleWhite;
+        }
+        .wpcf7 {
+            width: 80%;
+            form {
+                width: 100%;
+                p {
+                    label {
+                        @include responsive-font(1vw, 12px, 20px);
+                        color: $glendaleWhite;
+                        height: 30px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                    }
+                    input[type="text"] {
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    input[type="email"] {
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    textarea {
+                        width: 100%;
+                        margin: 0 auto;
+                        height: 100px;
+                    }
+                    input[type="submit"] {
+                        width: 60%;
+                        background: $glendaleGreen;
+                        color: $glendaleWhite;
+                        border: 1px solid $glendaleGreen;
+                        text-transform: uppercase;
+                        letter-spacing: 3px;
+                        font-weight: 600;
+                    }
+                }
+                .wpcf7-response-output {
+                    color: white;
+                }
+            }
+        }
+    }
+    .map {
+        width: 65%;
+        height: 600px;
+        #wpgmza_map {
+            // width: 70%;
+        }
+    }
+}
+
+// All Media Queries------------------------
+// Landscape phones and tablet
+@media (max-width: 768px) {
+    //header image to 60vh
+    .header-background {
+        width: 100%;
+        height: 60vh;
+    }
+    .metaslider-flex {
+        #metaslider_container_70 {
+            .flexslider {
+                .slides {
+                    .ms-image {
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+    //about area text to cover image
+    .about-wrapper {
+        height: 80vh;
+        .about-image {
+            width: 80%;
+            margin-left: 0;
+        }
+        .about-text {
+            width: 60%;
+            height: 80%;
+            margin-left: -70%;
+        }
+    }
+    //calendar area to column view
+    //calendar section area
+    .events-container {
+        width: 100%;
+        #tribe-events-adv-list-widget-4 {
+            display: none;
+        }
+        #tribe-mini-calendar-2 {
+            width: 100%;
+            .tribe-mini-calendar-wrapper {
+                .tribe-mini-calendar-grid-wrapper {
+                    .tribe-mini-calendar {
+                        tbody {
+                            tr {
+                                td {
+                                    height: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .tribe-mini-calendar-list-wrapper {
+                    display: flex;
+                    .tribe-events-loop {
+                        width: 100%;
+                        .type-tribe_events {
+                            .tribe-mini-calendar-event {
+                                background: lighten($glendaleGreen, 10%);
+                                .list-date {
+                                    width: 20%;
+                                    background: white;
+                                    margin: 0;
+                                    .list-dayname {
+                                        color: lighten($glendaleGreen, 10%);
+                                        @include responsive-font(1vw, 14px, 30px);
+                                        font-weight: 400;
+                                    }
+                                    .list-daynumber {
+                                        color: lighten($glendaleGreen, 10%);
+                                        @include responsive-font(1vw, 14px, 30px);
+                                        font-weight: 400;
+                                    }
+                                }
+                                .list-info {
+                                    margin: 0;
+                                    padding: 0 5%;
+                                    .tribe-events-title {
+                                        @include responsive-font(1.3vw, 14px, 24px);
+                                        a {
+                                            color: $glendaleWhite;
+                                        }
+                                        a:hover {
+                                            color: $glendaleGreen;
+                                        }
+                                    }
+                                    .tribe-events-duration {
+                                        @include responsive-font(1vw, 12px, 20px);
+                                        color: $glendaleWhite;
+                                    }
+                                    .tribe-events-location {
+                                        @include responsive-font(1vw, 12px, 20px);
+                                        color: $glendaleWhite;
+                                        .tribe-events-venue {
+                                            a {
+                                                color: $glendaleWhite;
+                                            }
+                                            a:hover {
+                                                color: lighten($glendaleGreen, 10%);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } //end of calendar ipad styles
+    .membership-wrap {
+        .membership-types {
+            // flex-direction: column;
+            flex-wrap: wrap;
+            .membership-type {
+                height: 250px;
+                width: 47%;
+                margin: 5% auto;
+                .type {
+                    height: 70px;
+                }
+            }
+        }
+    }
+    .contact {
+        flex-direction: column;
+        .contact-form {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .map {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+
+// Landscape phones and down
+@media (max-width: 500px) {
+    .membership-wrap {
+        .membership-types {
+            flex-direction: column;
+            .membership-type {
+                width: 90%;
+                margin: 5% auto;
+            }
+        }
+    }
+}
